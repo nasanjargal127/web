@@ -1,0 +1,25 @@
+.MenuItem {
+    width: 100%;
+    padding: 20px;
+    color:white;
+     display: flex; 
+     z-index: 1;
+     
+    /* width: 280px; */
+    /* align-items: center;  */
+}
+
+
+@media (min-width: 500px){
+    .MenuItem{
+        margin: 0px;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+    
+    } 
+    
+    
+    
+ }

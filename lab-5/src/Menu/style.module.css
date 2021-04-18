@@ -1,0 +1,24 @@
+.Menu{
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    list-style-type: none;
+    align-items: center;
+    background-color: rgb(95, 7, 177);
+    margin-top: 9%;
+    margin-top: 0px;
+    padding: 0px;
+    width: 100%;
+
+}
+.title{
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+}
+
+@media (min-width: 500px){
+    .Menu {
+        flex-flow: row;
+    }
+}

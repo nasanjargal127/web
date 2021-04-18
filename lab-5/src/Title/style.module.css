@@ -1,0 +1,17 @@
+.Title{ 
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 20px;
+    display: flex;
+
+    /* position: fixed;  */
+     z-index: 99;
+    color: white;
+    background-color: rgb(149, 65, 228);
+    font-size: 30px;
+}
+@media(min-width: 500){
+    .Title{
+        display: none;
+    }
+}
