@@ -1,0 +1,55 @@
+.flex-container > div{ 
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 10px;
+}
+.flex-container {
+    margin: auto;
+    width: 50px;
+    padding: 0px;
+    
+  }
+div{
+    font-family: tahoma;
+    font-size: 40px;
+}
+.a, .c, .e{
+    background-color: #dfe1e7;
+    border-top: 1px;
+    border-top-style: solid ;
+    border-top-color: #687291;
+    
+}
+.b, .d{
+    background-color:#eeeff2;
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #687291;
+}
+.f{
+    background-color: #687291;
+    border width: 4px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 10px;
+}
+.flex-box{
+ margin: auto;
+    width: 54px;
+}

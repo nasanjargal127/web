@@ -1,0 +1,32 @@
+.a, .b, .c, .d, .e, .f{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100px;
+    height: 150px;
+    font-family: tahoma;
+    font-size: 40px;
+    background-color: #eeeff2;
+    border-spacing: 10px;
+    border-left: 10px;
+    border-style: dotted;
+    border-left-color: #D0D0FF;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+.flex-container > div{ 
+    margin: 10px;
+    padding: 0;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.f {
+    position: sticky;
+    left: 100%;
+    bottom: 0%;
+    }

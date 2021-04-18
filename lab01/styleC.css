@@ -1,0 +1,27 @@
+div{ 
+    font-size: 20px;
+    text-align: center;
+    color: cyan;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    height: 100px;
+    width: 100px;
+  /* background-color: red;  */
+  /* background-image: linear-gradient(red, yellow, blue); */
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+  rgba(121,9,96,0.5354516806722689) 35%,
+   rgba(0,212,255,1) 100%);
+}
+div:hover{
+    cursor: pointer;
+    width: 300px;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+    animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+    50%  {background-color: blue;}
+    50% {background-color: green;}
+  }
