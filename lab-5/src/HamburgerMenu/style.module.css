@@ -1,0 +1,21 @@
+.HamburgerMenu{
+    width: 40px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    padding: 10px 0;
+    box-sizing: border-box;
+    background-color: red;
+    z-index: 500000;
+}
+
+.HamburgerMenu div{
+    height: 4px;
+    background-color: white;
+}
+@media (min-width: 500px){
+    .HamburgerMenu{
+        display: none;
+    }
+}

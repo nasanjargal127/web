@@ -20,5 +20,12 @@
 @media (min-width: 500px){
     .Menu {
         flex-flow: row;
+        /* display: none; */
+    }
+}
+@media (max-width: 500px){
+    .Menu {
+      
+        display: none;
     }
 }

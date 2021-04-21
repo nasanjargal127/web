@@ -43,14 +43,16 @@
     font-size: 15px;
 }
 
-@media(min-width: 500px ) {
-    
+@media(max-width: 500px ) {
+    .Features{
+        display: none
+    };
 }
 
 @media (max-width: 980px){
 
     .Features div p{
-        margin-top: 20%;
+        margin-top: 30%;
         display: none;
         /* position: absolute; */
     }

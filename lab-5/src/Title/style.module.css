@@ -10,7 +10,7 @@
     background-color: rgb(149, 65, 228);
     font-size: 30px;
 }
-@media(min-width: 500){
+@media(max-width: 500){
     .Title{
         display: none;
     }
