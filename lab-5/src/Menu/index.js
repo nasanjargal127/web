@@ -10,11 +10,11 @@ const Menu = (props) => {
             <Title text="MY REACT WEBSITE"/>
             <ul className={css.Menu}>
                 <HamburgerMenu />
-            <MenuItem>OVERVIEW</MenuItem>
-            <MenuItem>FEATURES</MenuItem>
-            <MenuItem>DETAILS</MenuItem>
-            <MenuItem>TECHNOLOGY</MenuItem>
-            <MenuItem>FAQ</MenuItem>
+            <MenuItem link="/overview">OVERVIEW</MenuItem>
+            <MenuItem link="/features">FEATURES</MenuItem>
+            <MenuItem link="/details">DETAILS</MenuItem>
+            <MenuItem link="/technology">TECHNOLOGY</MenuItem>
+            <MenuItem link="/faq">FAQ</MenuItem>
             </ul>
             
         </div>

@@ -8,6 +8,9 @@
     /* width: 280px; */
     /* align-items: center;  */
 }
+.MenuItem NavLink{
+    color: white;
+}
 
 
 @media (min-width: 500px){

@@ -1,0 +1,4 @@
+.email{
+    display: flex;
+    flex-direction: row;
+}
