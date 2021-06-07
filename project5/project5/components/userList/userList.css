@@ -1,0 +1,24 @@
+.xaxa{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid skyblue;
+    background-color:#1270EF;
+    border-radius: 5px;
+}
+.xwxw{
+
+    font-size: 40px;
+    color: black;
+   margin-top: 10px;
+    text-align: center;
+}
+Avatar{
+    width: 40px;
+    height: 40px;
+}
+.qw{
+    background-color: rebeccapurple;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+}

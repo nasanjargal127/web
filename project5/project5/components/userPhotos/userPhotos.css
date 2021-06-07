@@ -1,0 +1,16 @@
+img{
+    
+    border:1px solid black;
+    border-radius: 20px;
+    height: 600px;
+    width: 1200px;
+}
+.comm{
+    font-family: tahoma;
+    background-color:rgb(83, 207, 238);
+    
+}
+.kke{
+    font-size: 30px;    
+
+}
